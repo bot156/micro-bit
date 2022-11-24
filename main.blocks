@@ -1,0 +1,19 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="0vxqymAaLo]xzU2?:*+W" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="-Cv:oZ)vf}~Z8U=rxp{,"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></statement></block><block type="input_logo_event" id="?p1CfZNkG7N+^q,yV[rG" x="201" y="-4"><field name="action">TouchButtonEvent.Pressed</field><statement name="HANDLER"><block type="basic_show_icon" id="%dnf#$`i}3*qLtM^Wyee"><field name="i">IconNames.Happy</field><next><block type="SoundExpression_playUntilDone" id="#+Cd=RiFDz]UIqHA3*xn"><field name="this">soundExpression.giggle</field><next><block type="device_show_leds" id="SBsf7W1q+k%0@A#+yW=8"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></next></block></statement></block><block type="device_gesture_event" id="vtH$+u*N^msbb,]Z}^x#" x="573" y="-4"><field name="NAME">Gesture.Shake</field><statement name="HANDLER"><block type="basic_show_icon" id="{j(M5h5_gITGng|fQD:)"><field name="i">IconNames.Sad</field><next><block type="SoundExpression_playUntilDone" id="aJTS9EH(A~{JOZq/*O}2"><field name="this">soundExpression.sad</field><next><block type="device_show_leds" id="r=vo^BIZzPH#q4jB)YPj"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        # . . . # 
+        . # # # .
+        `</field></block></next></block></next></block></statement></block><block type="device_button_event" id="MvwXDjsY@WhO0%Ds!HVy" x="-5" y="454"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_print_message" id="jT#E?PZx_WJA|IcP{;QQ"><value name="text"><shadow type="text" id="Vm_O?i}.*L^KbMja!|~p"><field name="TEXT">Hello!</field></shadow></value></block></statement></block><block type="device_button_event" id="-xIYk7ri:uIb5K/SGlPW" x="276" y="469"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="basic_show_icon" id="]LaXv!N/L.r:-qsac@=t"><field name="i">IconNames.Confused</field></block></statement></block><block type="device_button_event" id="3S%I$W5OKZ@40n=TECKc" x="584" y="476"><field name="NAME">Button.AB</field><statement name="HANDLER"><block type="basic_show_icon" id="Cs)1CtVKzDU`.Rl|5aU}"><field name="i">IconNames.Silly</field></block></statement></block></xml>
